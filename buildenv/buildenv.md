@@ -1,6 +1,6 @@
 Let's breakdown the contents of the Dockerfile...
 
-*FROM randomdude/gcc-cross-x86_64-elf`*
+    FROM randomdude/gcc-cross-x86_64-elf`
 
 If you are familar with Python, the *FROM* command is similar to the `pip install` command for python libraries. Docker will search it's database to find the 'library' with this name so we can download it to our computer and use what's inside, awesome! The base image or 'library' in this case is `randomdude/gcc-cross-x86_64-elf`.
 
